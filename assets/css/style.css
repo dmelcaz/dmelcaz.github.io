@@ -1,0 +1,41 @@
+body {
+  background: #fff;
+  color: #111;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #111;
+  font-weight: 500;
+}
+
+a {
+  color: #111;
+  text-decoration: underline;
+}
+
+nav {
+  margin: 2em 4em;
+}
+
+nav a {
+  margin-right: 1.5em;
+  color: #111;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  max-width: 600px;
+  margin: 2em auto;
+  padding: 2em;
+}
