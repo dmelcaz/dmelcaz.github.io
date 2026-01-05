@@ -1,3 +1,6 @@
-<nav>
-  <a href="/">David Melero Cazorla</a>
+<nav class="site-nav">
+  <div class="lang-links">
+    <a href="{{ '/en/' | relative_url }}" onclick="localStorage.setItem('site-lang','en')">EN</a>
+    <a href="{{ '/es/' | relative_url }}" onclick="localStorage.setItem('site-lang','es')">ES</a>
+  </div>
 </nav>

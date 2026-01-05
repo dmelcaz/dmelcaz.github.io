@@ -28,6 +28,16 @@ url: "https://dmelcaz.github.io" # the base hostname & protocol for your site, e
 twitter_username: dmelcaz
 github_username:  dmelcaz
 
+defaults:
+  - scope:
+      path: "en"
+    values:
+      lang: "en"
+  - scope:
+      path: "es"
+    values:
+      lang: "es"
+
 # Build settings
 # remote_theme: pages-themes/cayman@v0.2.0
 # plugins:
