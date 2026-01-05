@@ -1,6 +1,8 @@
 ---
 layout: home
 lang: es
+title: David Melero Cazorla — Ingeniero de Software
+description: Ingeniero de Software en Barcelona con pasion por prototipar y explorar la interseccion entre hardware y software.
 ---
 
 # Hola!

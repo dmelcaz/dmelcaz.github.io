@@ -1,6 +1,8 @@
 ---
 layout: home
 lang: en
+title: David Melero Cazorla — Software Engineer
+description: Software Engineer in Barcelona focused on prototyping and the intersection of hardware and software.
 ---
 
 # Hi!
