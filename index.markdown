@@ -1,7 +1,25 @@
 ---
 layout: home
+title: Language
 ---
 
-# Hi!
+<noscript>
+  <p>
+    <a href="{{ '/en/' | relative_url }}">English</a> · <a href="{{ '/es/' | relative_url }}">Espanol</a>
+  </p>
+</noscript>
 
-I’m [David Melero Cazorla](https://www.linkedin.com/in/dmelcaz/), a Software Engineer based in Barcelona with a passion for prototyping, building, and exploring the intersection of hardware and software. Currently, I work at [HP](https://www.hp.com), where I contribute to developing innovative solutions for the [Large Format Printing](https://www.hp.com/us-en/printers/large-format.html) business.
+<script>
+  (function () {
+    var base = "{{ '/' | relative_url }}";
+    var stored = localStorage.getItem('site-lang');
+    if (stored) {
+      window.location.replace(base + stored + '/');
+      return;
+    }
+    var lang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+    var target = lang.indexOf('es') === 0 ? 'es' : 'en';
+    localStorage.setItem('site-lang', target);
+    window.location.replace(base + target + '/');
+  })();
+</script>
